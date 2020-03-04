@@ -29,6 +29,7 @@
 | Modified Retail Food Environment Index (mRFEI) | Fraction of food retailers that are &quot;healthy&quot; | Census Tract | 2011 |
 | USDA National Agricultural Statistics Service (NASS) | Quantity of types of animals, products, crops | Zip Code | 1997, 2002, 2007, 2008, 2011 - 2016 |
 | National Center for Charitable Statistics (NCCS) | Location and financial operations of non-profit organizations | Exact | Annual (1989 - 2013) |
+| Gun Violence Archive (GVA) | Location and type of gun violence incident | Exact | Annual (2014 - current) |
 
 ### Level 3
 
