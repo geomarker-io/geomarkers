@@ -35,9 +35,9 @@
 
 | **Database** | **Example Data** | **Space** | **Time** |
 | --------------------- | ---------------------------- | --------- | --------- |
-| Spatiotemporal PM2.5 Predictions | Estimated air pollution exposure | Tract Centers (Contiguous U.S.) | Monthly (1999 – 2008) |
-| Spatiotemporal PM2.5 Predictions | Estimated air pollution exposure | Global (0.01°×0.01°) | Annual (1998 – 2014) |
-| Spatiotemporal NO2 Predictions | Estimated NO2 exposure | Census block centers; block group; tract |  Monthly (2000 – 2010) |
+| CACES LUR | PM2.5, PM10, O3, CO, SO2, NO2 | Census block group (Contiguous US) | Annual (1999 - 2015) |
+| ACAG MAPLE | PM2.5, SO4, NO3, NH4, OM, BC, DUST, SS | 0.01° × 0.01° (North America) | Annual (2000 - 2018) |
+| Beckerman | PM2.5, NO2 | Tract Centers (Contiguous US) | Monthly (1999 – 2008) |
 | National Park Service Geospatial Sound Modeling (GSM) | Noise level | 270 m sq grids (nationwide) | 2015 |
 | AGI Crime Risk | Relative crime risk by crime subtype | Census block groups (nationwide) | Average (2010 - 2017) |
 
