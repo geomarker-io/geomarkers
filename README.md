@@ -53,15 +53,15 @@
 | **Geomarkers** | **Space** | **Time** | **Source** | **Available DeGAUSS Products** |
 | --------------------- | ---------------------------- | --------- | --------- | --------- |
 | Crime density, combined sewer overflow sites, housing infractions, urban tree cover, etc |	Exact location (Greater Cincinnati Area) | Current | [Cincinnati Area Geographic Information Systems (CAGIS)](http://cagis.org/Opendata/?) | [hamilton](https://github.com/geomarker-io/hamilton) R package for parcel-based geocoding |
-|Estimated travel time by car |	Census tract and traffic analysis area |	Hourly (2016-2017) |	[Uber Move](https://movement.uber.com/explore/cincinnati/travel-times/query?si=156&ti=&ag=censustracts&dt[tpb]=ALL_DAY&dt[wd;]=1,2,3,4,5,6,7&dt[dr][sd]=2019-12-01&dt[dr][ed]=2019-12-31&cd=&sa;=&sdn=&lang=en-US	)	| |
+| PM2.5 |	Exact location (seven county area served by CCHMC) |	Daily (2000 – 2015)	 | [Air pollution exposure model](https://doi.org/10.1021/acs.est.7b05381) |	[aiR](https://geomarker.io/aiR/) R package |
+| Traffic Related Air Pollution	| Exact location (seven county area served by CCHMC) |	Monthly (2001 – current) |	[Air pollution exposure model](https://doi.org/10.1289/ehp.9480) |	[ecat](https://geomarker.io/ecat/) R package |
+| PM2.5 components: Al, Cu, Fe, K, Mn, Pb, S, Si, V, Zn | Exact location |	Average daily exposure (2002-2006) |	[Air pollution exposure model](http://dx.doi.org/10.1016/j.atmosenv.2016.11.066) |   |
+| Lead Air Pollution |	Exact location (seven county area served by CCHMC) |	Monthly (2001 – current) |	[Air pollution exposure model](http://dx.doi.org/10.1016/j.atmosenv.2016.11.066) |	[airPb](https://geomarker.io/airPb) R package	|
+| Estimated travel time by car |	Census tract and traffic analysis area |	Hourly (2016-2017) |	[Uber Move](https://movement.uber.com/explore/cincinnati/travel-times/query?si=156&ti=&ag=censustracts&dt[tpb]=ALL_DAY&dt[wd;]=1,2,3,4,5,6,7&dt[dr][sd]=2019-12-01&dt[dr][ed]=2019-12-31&cd=&sa;=&sdn=&lang=en-US	)	| |
 | Combined Sewer Overflow events |	Exact location |	Daily (2012 - 2016) |	Metropolitan Sewer District (MSD) | |
 | Home images, value, age, other physical characteristics, owner name |	Exact	Inspection dates |	Hamilton County Auditor	| |	
 | Land cover in 6 categories: impervious, tree canopy, agriculture, bare soil, grass/meadow, water |	1 x 1 m (Cincinnati and Northern Kentucky) |	2010 |	Urban Tree Canopy (UTC) Assessments | |		
 | Satellite measured near-infrared and visible radiation |	30 x 30 m (seven county region) |	2000 & 2010	Normalized Differential Vegetation (NDVI) cover	| |		
 | Vacant properties, managed and vouchered properties, management companies |	Exact location (Greater Cincinnati Area) |	Current	 | Cincinnati Metro Housing Authority (CMHA) |  |
-| PM2.5 components: Al, Cu, Fe, K, Mn, Pb, S, Si, V, Zn | Exact location |	Average daily exposure (2002-2006) |	[Air pollution exposure model](http://dx.doi.org/10.1016/j.atmosenv.2016.11.066) |   |
-| PM2.5 |	Exact location (seven county area served by CCHMC) |	Daily (2000 – 2015)	 | [Air pollution exposure model](https://doi.org/10.1021/acs.est.7b05381) |	[aiR](https://geomarker.io/aiR/) package |
-| Traffic Related Air Pollution	| Exact location (seven county area served by CCHMC) |	Monthly (2001 – current) |	[Air pollution exposure model](https://doi.org/10.1289/ehp.9480) |	[ecat](https://geomarker.io/ecat/) package |
-| Lead Air Pollution |	Exact location (seven county area served by CCHMC) |	Monthly (2001 – current) |	[Air pollution exposure model](http://dx.doi.org/10.1016/j.atmosenv.2016.11.066) |	[airPb](https://geomarker.io/airPb) package	|
 | Areas without access to medication-assisted treatment and/or behavioral therapy for opioid addiction |	Exact location (seven county area served by CCHMC) |	2019 |	MAT Desert |  |			
 | Crime |	Exact location (Ohio) |	Annual (2013 - 2018)|	[Ohio Incident Based Reporting System](https://www.ocjs.ohio.gov/crime_stats_reports.stm#gsc.tab=0) | |
