@@ -1,4 +1,4 @@
-# geomarkers  <a href='https://geomarker.io.geomarkers/'><img src='geomarker_io_hex.png' align="right" height="138.5" /></a>
+# geomarkers  <a href='https://geomarker.io.geomarkers/'><img src='geomarker-io_hex_with_url.png' align="right" height="138.5" /></a>
 
 ### Demographic Information / Neighborhood Characteristics
 
