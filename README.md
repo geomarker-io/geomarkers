@@ -23,7 +23,7 @@
 | **Geomarkers** | **Space** | **Time** | **Source** | **Available DeGAUSS Products** |
 | --------------------- | ---------------------------- | --------- | --------- | --------- |
 | PM2.5 | 0.74 sq km h3 hexagonal grid | daily (2000 - 2020) | coming soon | coming soon | 
-| PM2.5[**](#myfootnote2)  | 1 sq km grid | daily (2000 - 2016) | Schwartz exposure model | [schwartz](https://degauss.org/degauss_schwartz_guide/) DeGAUSS container | 
+| PM2.5, NO2, O3[**](#myfootnote2)  | 1 sq km grid | daily (2000 - 2016) | Schwartz exposure model | [schwartz](https://degauss.org/degauss_schwartz_guide/) DeGAUSS container | 
 | air toxics cancer risk, respiratory hazard index, diesel PM, PM2.5, ozone, traffic proximity and volume, lead paint indicator, proximity to RPM sites, proximity to hazardous waste facilities, proximity to NPL sites, wastewater discharge indicator | Census block groups | Annual (2015 - 2020) | [EPA EJ Screen](https://www.epa.gov/ejscreen/overview-environmental-indicators-ejscreen) | [zctaDB](https://geomarker.io/zctaDB/) R package | 
 | Fixed site monitoring of ambient pollutant levels, air quality alerts |	Interpreted from over 2500 stations (nationwide) | Daily | [EPA Air Quality System (AQS)](https://aqs.epa.gov/aqsweb/airdata/download_files.html) | |
 | Location and amount of emissions | Exact location |	Yearly (2008, 2011, 2014, 2017) | [National Emissions Inventory (NEI)](https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei) | | 
