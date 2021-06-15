@@ -15,6 +15,10 @@
 | Food access indicators, SNAP benefits, demographics | Census tract | 2015 | [USDA Food Access Research Atlas](https://www.ers.usda.gov/data-products/food-access-research-atlas/) | |
 | Medically Underserved Areas | County / Census tract | Current | [Health Resources and Services Administration (HRSA)](https://data.hrsa.gov/data/download) | [MUA App](https://erikarasnick.shinyapps.io/mua_app/) | 
 | Location and financial operations of non-profit organizations | Exact | Annual (1989 - 2013) | [National Center for Charitable Statistics (NCCS)](https://nccs-data.urban.org/index.php#page-top) | |
+| Social Vulnerability Index | County / Census tract | 2000, 2010, 2014, 2016, 2018 | [Agency for Toxic Substances and Disease Registry (ATSDR)](https://www.atsdr.cdc.gov/placeandhealth/svi/index.html) ||
+| Community Resilience Estimates | County / Census tract | Current | [US Census](https://www.census.gov/data/experimental-data-products/community-resilience-estimates.html) || 
+| Social Deprivation Index (Area level deprivation based on ACS data) | County, census tract, ZCTA and PCSA | 2015 | [Robert Graham Center](https://www.graham-center.org/rgc/maps-data-tools/sdi/social-deprivation-index.html) ||
+| Neighborhood Atlas | Census block group | 2015, 2019 | [University of Wisconsin School of Medicine and Public Heatlh](https://www.neighborhoodatlas.medicine.wisc.edu/) ||
 
 <a name="myfootnote1">*</a> AGS Crime Risk is a propriety product and must be purchased directly from AGS. 
 
