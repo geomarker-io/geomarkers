@@ -34,6 +34,7 @@
 | PM2.5, PM10, O3, CO, SO2, NO2 | Census block group (Contiguous US) | Annual (1999 - 2015) | [CACES LUR](https://www.caces.us/data) | |
 | PM2.5, SO4, NO3, NH4, OM, BC, DUST, SS | 0.01° × 0.01° (North America) | Annual (2000 - 2018) | [ACAG MAPLE](http://fizz.phys.dal.ca/~atmos/martin/?page_id=140) | |
 | PM2.5, NO2 | Tract Centers (Contiguous US) | Monthly (1999 – 2008) | Beckerman | |
+| PM2.5, GBD-MAPS, NO2, Inverse Visibility, OM/OC, Surface Area, NOy Deposition, Dry Deposition, AMF Code | Gridded coordinates | Annual / Monthly | [ACAG Washington University in St. Louis](https://sites.wustl.edu/acag/datasets/)
 
 <a name="myfootnote2">**</a> Schwartz model estimates are hosted privately, but are available upon request through DockerHub authentication.
 
