@@ -14,11 +14,10 @@
 | Fraction of food retailers that are "healthy" | Census tract | 2011 | [Modified Retail Food Environment Index (mRFEI)](https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf) | | 
 | Food access indicators, SNAP benefits, demographics | Census tract | 2015 | [USDA Food Access Research Atlas](https://www.ers.usda.gov/data-products/food-access-research-atlas/) | |
 | Medically Underserved Areas | County / Census tract | Current | [Health Resources and Services Administration (HRSA)](https://data.hrsa.gov/data/download) | [MUA App](https://erikarasnick.shinyapps.io/mua_app/) | 
-| Location and financial operations of non-profit organizations | Exact | Annual (1989 - 2013) | [National Center for Charitable Statistics (NCCS)](https://nccs-data.urban.org/index.php#page-top) | |
 | Social Vulnerability Index | County / Census tract | 2000, 2010, 2014, 2016, 2018 | [Agency for Toxic Substances and Disease Registry (ATSDR)](https://www.atsdr.cdc.gov/placeandhealth/svi/index.html) ||
 | Community Resilience Estimates | County / Census tract | Current | [US Census](https://www.census.gov/data/experimental-data-products/community-resilience-estimates.html) || 
 | Social Deprivation Index (Area level deprivation based on ACS data) | County, census tract, ZCTA and PCSA | 2015 | [Robert Graham Center](https://www.graham-center.org/rgc/maps-data-tools/sdi/social-deprivation-index.html) ||
-| Neighborhood Atlas | Census block group | 2015, 2019 | [University of Wisconsin School of Medicine and Public Heatlh](https://www.neighborhoodatlas.medicine.wisc.edu/) ||
+| Neighborhood Atlas | Census block group | 2015, 2019 | [University of Wisconsin School of Medicine and Public Health](https://www.neighborhoodatlas.medicine.wisc.edu/) ||
 
 <a name="myfootnote1">*</a> AGS Crime Risk is a propriety product and must be purchased directly from AGS. 
 
@@ -33,8 +32,8 @@
 | Location and amount of emissions | Exact location |	Yearly (2008, 2011, 2014, 2017) | [National Emissions Inventory (NEI)](https://www.epa.gov/air-emissions-inventories/national-emissions-inventory-nei) | | 
 | PM2.5, PM10, O3, CO, SO2, NO2 | Census block group (Contiguous US) | Annual (1999 - 2015) | [CACES LUR](https://www.caces.us/data) | |
 | PM2.5, SO4, NO3, NH4, OM, BC, DUST, SS | 0.01° × 0.01° (North America) | Annual (2000 - 2018) | [ACAG MAPLE](http://fizz.phys.dal.ca/~atmos/martin/?page_id=140) | |
+| PM2.5, GBD-MAPS, NO2, Inverse Visibility, OM/OC, Surface Area, NOy Deposition, Dry Deposition, AMF Code | 0.01° × 0.01° (North America) | Annual / Monthly | [ACAG Washington University in St. Louis](https://sites.wustl.edu/acag/datasets/)
 | PM2.5, NO2 | Tract Centers (Contiguous US) | Monthly (1999 – 2008) | Beckerman | |
-| PM2.5, GBD-MAPS, NO2, Inverse Visibility, OM/OC, Surface Area, NOy Deposition, Dry Deposition, AMF Code | Gridded coordinates | Annual / Monthly | [ACAG Washington University in St. Louis](https://sites.wustl.edu/acag/datasets/)
 
 <a name="myfootnote2">**</a> Schwartz model estimates are hosted privately, but are available upon request through DockerHub authentication.
 
