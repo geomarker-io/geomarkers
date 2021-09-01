@@ -2,10 +2,12 @@
 
 ### Demographic Information / Neighborhood Characteristics
 
-| **Geomarkers** | **Space** | **Time** | **Source** | **Available DeGAUSS Products** |
+The [Census Block Group](https://github.com/degauss-org/census_block_group) DeGAUSS container can be used to obtain census geography identifiers in order to merge in any of the data below or other extant data indexed by census geography identifiers
+
+| **Geomarkers** | **Space** | **Time** | **Source** | **Available Software Products** |
 | --------------------- | ---------------------------- | --------- | --------- | --------- |
 | Population, socioeconomic indicators, etc | Census tract or block | Yearly | [US Census American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs/) | |
-| Neighborhood deprivation index (poverty, education, housing, and health care coverage) | Census tract or zip code | 2015, 2018 | [Neighborhood Deprivation Index](https://geomarker.io/dep_index/) | coming soon | 
+| Neighborhood deprivation index (poverty, education, housing, and health care coverage) | Census tract or zip code | 2015, 2018 | [Material Deprivation Index](https://geomarker.io/dep_index/) | [Dep. Index](https://github.com/degauss-org/dep_index) DeGAUSS Container | 
 | Child Opportunity Index (education, health & environment, social & economic neighborhood characteristics) | Census tract | 2010, 2015 | [Child Opportunity Index 2.0](https://www.diversitydatakids.org/child-opportunity-index) | |
 | Population, racial composition, socioeconomic indicators, racial and socioeconomic Index of Concentration at the Extremes, crowding | County, zip code, or census tract | 2018 | [The Public Health Disparities Geocoding Project](https://www.hsph.harvard.edu/thegeocodingproject/covid-19-resources/) |  |
 | Racial Index of Concentration at the Extremes (ICE) | Census tract or zip code | Yearly | [Racial ICE](https://onlinelibrary.wiley.com/doi/10.1111/ajt.16186) | [zctaDB](https://geomarker.io/zctaDB/) R package | 
@@ -25,7 +27,7 @@
 
 | **Geomarkers** | **Space** | **Time** | **Source** | **Available DeGAUSS Products** |
 | --------------------- | ---------------------------- | --------- | --------- | --------- |
-| PM2.5 | 0.74 sq km h3 hexagonal grid | daily (2000 - 2020) | coming soon | coming soon | 
+| PM2.5 | 0.74 sq km h3 hexagonal grid | daily (2000 - 2020) | [PM2.5 Hex Model](https://github.com/geomarker-io/st_pm_hex) | [PM2.5](https://github.com/degauss-org/pm) DeGAUSS container | 
 | PM2.5, NO2, O3[**](#myfootnote2)  | 1 sq km grid | daily (2000 - 2016) | Schwartz exposure model | [schwartz](https://degauss.org/degauss_schwartz_guide/) DeGAUSS container | 
 | air toxics cancer risk, respiratory hazard index, diesel PM, PM2.5, ozone, traffic proximity and volume, lead paint indicator, proximity to RPM sites, proximity to hazardous waste facilities, proximity to NPL sites, wastewater discharge indicator | Census block groups | Annual (2015 - 2020) | [EPA EJ Screen](https://www.epa.gov/ejscreen/overview-environmental-indicators-ejscreen) | [zctaDB](https://geomarker.io/zctaDB/) R package | 
 | Fixed site monitoring of ambient pollutant levels, air quality alerts |	Interpreted from over 2500 stations (nationwide) | Daily | [EPA Air Quality System (AQS)](https://aqs.epa.gov/aqsweb/airdata/download_files.html) | |
