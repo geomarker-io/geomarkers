@@ -50,7 +50,7 @@ The [census Block Group](https://github.com/degauss-org/census_block_group) DeGA
 | Roadway type, development intensity |	30 x 30 m grid |	Annual (2001, 2006, 2011, 2016) |	[NLCD Imperviousness Classification](https://www.mrlc.gov/data/nlcd-2016-developed-imperviousness-descriptor-conus) | [addNlcdData](https://geomarker.io/addNlcdData/) R package;  [nlcd](https://degauss.org/nlcd/) DeGAUSS container |
 | Vegetation Type |	30 x 30 m grid | Annual (2011, 2016) |	[NLCD Tree Canopy](https://www.mrlc.gov/data/nlcd-2016-usfs-tree-canopy-cover-conus) | [addNlcdData](https://geomarker.io/addNlcdData/) R package;  [nlcd](https://degauss.org/nlcd/) DeGAUSS container |
 | Greenspace as fraction of land classified as green | 30 x 30 m grid	| Annual (2001, 2006, 2011, 2016)	| [NLCD Greenness](https://www.mrlc.gov/data/nlcd-land-cover-conus-all-years) | [addNlcdData](https://geomarker.io/addNlcdData/) R package;  [nlcd](https://degauss.org/nlcd/) DeGAUSS container |
-| Highway traffic intensity	| Exact location (nationwide) |	Yearly |	[US Department of Transportation (DOT)](https://www.transportation.gov/) | | 
+| Highway traffic intensity	| Exact location (nationwide) |	Yearly |	[US Department of Transportation (DOT)](https://www.transportation.gov/) | [addAadtData](https://geomarker.io/addAadtData/) R package; [aadt](https://degauss.org/aadt/) DeGAUSS container | 
 | Noise level |	270 m sq grids (nationwide) |	2015 |	[National Park Service Geospatial Sound Modeling (GSM)](https://www.nps.gov/subjects/sound/soundmap.htm) | |
 
 ### Greater Cincinnati Area Only
