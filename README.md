@@ -18,7 +18,7 @@ The [census Block Group](https://github.com/degauss-org/census_block_group) DeGA
 
 ### Air Pollution
 
-| **Geomarkers** | **Space** | **Time** | **Source** | **Available DeGAUSS Products** |
+| **Geomarkers** | **Space** | **Time** | **Source** | **Software & Data Resources** |
 | --------------------- | ---------------------------- | --------- | --------- | --------- |
 | PM2.5 | 0.74 sq km h3 hexagonal grid | daily (2000 - 2020) | [Brokamp exposure model](https://github.com/geomarker-io/st_pm_hex) | [addPmData](https://geomarker.io/addPmData/) R package; [pm](https://github.com/degauss-org/pm) DeGAUSS container | 
 | PM2.5, NO2, O3 | 1 sq km grid | daily (2000 - 2016) | Schwartz exposure model | [schwartz](https://degauss.org/degauss_schwartz_guide/) DeGAUSS container | 
@@ -31,7 +31,7 @@ The [census Block Group](https://github.com/degauss-org/census_block_group) DeGA
 
 ### Environmental Exposures
 
-| **Geomarkers** | **Space** | **Time** | **Source** | **Available DeGAUSS Products** |
+| **Geomarkers** | **Space** | **Time** | **Source** | **Software & Data Resources** |
 | --------------------- | ---------------------------- | --------- | --------- | --------- |
 | Air temperature, planetary boundary height, relative humidity, precipitation, wind |	North America (0.3°×0.3°) |	8-times a day (2001 – current); daily means (1979 – current) |	[North American Regional Reanalysis (NARR)](https://www.ncdc.noaa.gov/data-access/model-data/model-datasets/north-american-regional-reanalysis-narr) | [addNarrData](https://geomarker.io/addNarrData/) R package;  [narr](https://degauss.org/narr/) DeGAUSS container |
 | Greenspace as Enhanced Vegetation Index (EVI) | 250 × 250 m grid (contiguous US) | June 10 and June 25, 2018 composite | [Moderate Resolution Imaging Spectroradiometer (MODIS)](https://search.earthdata.nasa.gov/search) | [greenspace](https://degauss.org/greenspace/) DeGAUSS container |
@@ -45,7 +45,7 @@ The [census Block Group](https://github.com/degauss-org/census_block_group) DeGA
 
 ### Greater Cincinnati Area Only
 
-| **Geomarkers** | **Space** | **Time** | **Source** | **Available DeGAUSS Products** |
+| **Geomarkers** | **Space** | **Time** | **Source** | **Software & Data Resources** |
 | --------------------- | ---------------------------- | --------- | --------- | --------- |
 | Parcel classification and characteristics |	Exact location (Greater Cincinnati Area) | Current | [Cincinnati Area Geographic Information Systems (CAGIS)](http://cagis.org/Opendata/?) |  |
 | Home images, value, age, other physical characteristics, owner name | Exact |	Exact	Inspection dates |	[Hamilton County Auditor](https://wedge.hcauditor.org/)	| [hamilton](https://github.com/geomarker-io/hamilton) R package for parcel-based geocoding |	
