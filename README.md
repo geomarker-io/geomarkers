@@ -4,25 +4,17 @@
 
 The [census Block Group](https://github.com/degauss-org/census_block_group) DeGAUSS container can be used to obtain census geography identifiers in order to merge in any of the data below or other extant data indexed by census geography identifiers.
 
-| **Geomarkers** | **Space** | **Time** | **Source** | **Available Software Products** |
+| **Geomarkers** | **Space** | **Time** | **Source** | **Software & Data Resources** |
 | --------------------- | ---------------------------- | --------- | --------- | --------- |
-| Population, socioeconomic indicators, etc | Census tract or block | Yearly | [US Census American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs/) | |
-| Built environment & location efficiency, access to jobs and workers via transit, walkability index |	Census tract | 2021 |	[EPA Smart Location Mapping](https://www.epa.gov/smartgrowth/smart-location-mapping) | |
-| Neighborhood Deprivation Index (poverty, education, housing, and health care coverage) | Census tract or zip code | 2015, 2018 | [Material Deprivation Index](https://geomarker.io/dep_index/) | [dep index](https://github.com/geomarker-io/dep_index/tree/master/2018_dep_index#import-2018-index-directly-into-r) R code; [dep index](https://github.com/degauss-org/dep_index) DeGAUSS Container | 
-| Child Opportunity Index (education, health & environment, social & economic neighborhood characteristics) | Census tract | 2010, 2015 | [Child Opportunity Index 2.0](https://www.diversitydatakids.org/child-opportunity-index) | |
-| Population, racial composition, socioeconomic indicators, racial and socioeconomic Index of Concentration at the Extremes, crowding | County, zip code, or census tract | 2018 | [The Public Health Disparities Geocoding Project](https://www.hsph.harvard.edu/thegeocodingproject/covid-19-resources/) |  |
-| Racial Index of Concentration at the Extremes (ICE) | Census tract or zip code | Yearly | [Racial ICE](https://onlinelibrary.wiley.com/doi/10.1111/ajt.16186) | [zctaDB](https://geomarker.io/zctaDB/) R package | 
-| Relative crime risk by crime subtype[*](#myfootnote1) | Census block group | Average (2010 - 2017) | [AGS Crime Risk](https://appliedgeographic.com/crimerisk/) | |
-| Location and type of gun violence incident | Exact | Annual (2014 - current) | [Gun Violence Archive (GVA)](https://www.gunviolencearchive.org/) | |
-| Fraction of food retailers that are "healthy" | Census tract | 2011 | [Modified Retail Food Environment Index (mRFEI)](https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf) | | 
-| Food access indicators, SNAP benefits, demographics | Census tract | 2015 | [USDA Food Access Research Atlas](https://www.ers.usda.gov/data-products/food-access-research-atlas/) | |
-| Medically Underserved Areas | County / Census tract | Current | [Health Resources and Services Administration (HRSA)](https://data.hrsa.gov/data/download) | [MUA App](https://erikarasnick.shinyapps.io/mua_app/) | 
-| Social Vulnerability Index | County / Census tract | 2000, 2010, 2014, 2016, 2018 | [Agency for Toxic Substances and Disease Registry (ATSDR)](https://www.atsdr.cdc.gov/placeandhealth/svi/index.html) ||
-| Community Resilience Estimates | County / Census tract | Current | [US Census](https://www.census.gov/data/experimental-data-products/community-resilience-estimates.html) || 
-| Social Deprivation Index (Area level deprivation based on ACS data) | County, census tract, ZCTA and PCSA | 2015 | [Robert Graham Center](https://www.graham-center.org/rgc/maps-data-tools/sdi/social-deprivation-index.html) ||
-| Neighborhood Atlas | Census block group | 2015, 2018, 2019, 2020 | [University of Wisconsin School of Medicine and Public Health](https://www.neighborhoodatlas.medicine.wisc.edu/) ||
-
-<a name="myfootnote1">*</a> AGS Crime Risk is a proprietary product and must be purchased directly from AGS. 
+| Population, socioeconomic indicators, etc | Census tract or block | Yearly | [US Census American Community Survey (ACS)](https://www.census.gov/programs-surveys/acs/) | [hh_acs_measures](https://github.com/geomarker-io/hh_acs_measures) data resource; [harmonized_historical_census_data](https://github.com/geomarker-io/harmonized_historical_census_data) data resource; [tract_indices](https://github.com/geomarker-io/tract_indices) data resource |
+| Neighborhood Deprivation Index (poverty, education, housing, and health care coverage) | Census tract or zip code | 2015, 2018 | [Material Deprivation Index](https://geomarker.io/dep_index/) | [dep index](https://github.com/geomarker-io/dep_index/tree/master/2018_dep_index#import-2018-index-directly-into-r) R code; [dep index](https://github.com/degauss-org/dep_index) DeGAUSS Container; [tract_indices](https://github.com/geomarker-io/tract_indices) data resource | 
+| Child Opportunity Index (education, health & environment, social & economic neighborhood characteristics) | Census tract | 2010, 2015 | [Child Opportunity Index 2.0](https://www.diversitydatakids.org/child-opportunity-index) | [tract_indices](https://github.com/geomarker-io/tract_indices) data resource |
+| Racial Index of Concentration at the Extremes (ICE) | Census tract or zip code | Yearly | [Racial ICE](https://onlinelibrary.wiley.com/doi/10.1111/ajt.16186) | [zctaDB](https://geomarker.io/zctaDB/) R package; [tract_indices](https://github.com/geomarker-io/tract_indices) data resource | 
+| Relative crime risk by crime subtype | Census block group | Average (2010 - 2017) | [AGS Crime Risk](https://appliedgeographic.com/crimerisk/) | *proprietary product for purchase from AGS.*|
+| Fraction of food retailers that are "healthy" | Census tract | 2011 | [Modified Retail Food Environment Index (mRFEI)](https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf) | [tract_indices](https://github.com/geomarker-io/tract_indices) data resource | 
+| Social Vulnerability Index | County / Census tract | 2000, 2010, 2014, 2016, 2018 | [Agency for Toxic Substances and Disease Registry (ATSDR)](https://www.atsdr.cdc.gov/placeandhealth/svi/index.html) |[tract_indices](https://github.com/geomarker-io/tract_indices) data resource|
+| Community Resilience Estimates | County / Census tract | Current | [US Census](https://www.census.gov/data/experimental-data-products/community-resilience-estimates.html) |[tract_indices](https://github.com/geomarker-io/tract_indices) data resource| 
+| Social Deprivation Index (Area level deprivation based on ACS data) | County, census tract, ZCTA and PCSA | 2015 | [Robert Graham Center](https://www.graham-center.org/rgc/maps-data-tools/sdi/social-deprivation-index.html) |[tract_indices](https://github.com/geomarker-io/tract_indices) data resource|
 
 ### Air Pollution
 
