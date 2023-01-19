@@ -22,7 +22,7 @@ The [census Block Group](https://github.com/degauss-org/census_block_group) DeGA
 | Social Deprivation Index (Area level deprivation based on ACS data) | County, census tract, ZCTA and PCSA | 2015 | [Robert Graham Center](https://www.graham-center.org/rgc/maps-data-tools/sdi/social-deprivation-index.html) ||
 | Neighborhood Atlas | Census block group | 2015, 2018, 2019, 2020 | [University of Wisconsin School of Medicine and Public Health](https://www.neighborhoodatlas.medicine.wisc.edu/) ||
 
-<a name="myfootnote1">*</a> AGS Crime Risk is a propriety product and must be purchased directly from AGS. 
+<a name="myfootnote1">*</a> AGS Crime Risk is a proprietary product and must be purchased directly from AGS. 
 
 ### Air Pollution
 
